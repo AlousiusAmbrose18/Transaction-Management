@@ -1,0 +1,19 @@
+.backButton {
+    color: white;
+    outline: none;
+    padding: 2px 15px 2px 15px;
+    background-color: rgb(5, 10, 49);
+    border-radius: 5px;
+    margin: 40px 0 20px 400px;
+    letter-spacing: 2px;
+}
+
+.backButton:hover {
+    color: rgb(5, 10, 49);
+    border-radius: 5px;
+    margin: 40px 0 20px 400px;
+    letter-spacing: 2px;
+    background-color: white;
+    padding: 2px 15px 2px 15px;
+    border: 1px solid rgb(5, 10, 49);
+}
