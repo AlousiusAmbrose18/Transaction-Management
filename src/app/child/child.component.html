@@ -1,0 +1,23 @@
+<div class="box4">
+    <h3>Transactions History</h3>
+    <div>
+        <table>
+            <tr>
+                <th>ID </th>
+                <th>Sender</th>
+                <th>Receiver</th>
+                <th>Total Amount </th>
+                <th>Paid Amount</th>
+            </tr>
+            <tr *ngFor="let child of children">
+                <td>{{ child.id }}</td>
+                <td>{{ child.parent.sender }}</td>
+                <td>{{ child.parent.receiver }}</td>
+                <td>{{ child.parent.totalAmount }}</td>
+                <td>{{ child.paidAmount }}</td>
+            </tr>
+
+        </table>
+    </div>
+
+</div>
